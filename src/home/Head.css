@@ -1,0 +1,120 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+p{
+
+    font-size: 18px;
+    color: white;
+    
+}
+
+.nav{
+
+   
+    background: linear-gradient(to right, rgb(142, 2, 142), rgb(238, 18, 132));
+    width: 98.7vw;
+    display: flex;
+    padding: 5px;
+    text-align: left;
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+}
+
+.nav5 li{
+
+    margin: 5px;
+    
+
+}
+
+
+
+.nav2{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    flex:50%
+}
+
+.nav2_no{
+
+    display: flex;
+    align-items: ;
+}
+
+.nav2_no_icon{
+
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.nav2_mail{
+
+    display: flex;
+}
+
+.nav2_mail_icon{
+
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.nav2_icon{
+
+    color: white;
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-evenly;
+    
+}
+
+.nav2_icon .icon{
+
+    margin-right: 10px;
+}
+
+.nifa{
+
+    background-color: white;
+    max-width: 98.7vw;
+    display: flex;
+}
+
+.nifa .nav5{
+
+    background-color: white;
+    display: flex;
+    padding: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: center;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 75vw;
+    
+}
+
+.nifa img{
+
+    width: 120px;
+    height: auto;
+    margin-left: 60px;
+    margin-right: 50px;
+
+}
+
+.nifa li:hover{
+
+    color: rgb(230, 38, 130);
+    
+    
+}
